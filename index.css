@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* –– Tailwind smoke‑test –– */
+/*  → here’s the missing piece: */
 .bg-test {
   @apply bg-red-500 text-white;
 }
