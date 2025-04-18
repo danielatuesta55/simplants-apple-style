@@ -2,10 +2,12 @@
 @tailwind base;
 @tailwind components;
 
+/* 1. First emit all built‑in utilities */
+@tailwind utilities;
+
+/* 2. Then layer in your custom util */
 @layer utilities {
   .bg-test {
     @apply bg-red-500 text-white;
   }
 }
-
-@tailwind utilities;
