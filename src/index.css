@@ -1,15 +1,9 @@
-/* src/index.css */
-
-/* 1. Pull in the preflight and any component styles */
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
-/* 2. Define your custom “component” that uses @apply */
-@layer components {
+@layer utilities {
   .bg-test {
     @apply bg-red-500 text-white;
   }
 }
-
-/* 3. Finally inject all the single-purpose utilities */
-@tailwind utilities;
