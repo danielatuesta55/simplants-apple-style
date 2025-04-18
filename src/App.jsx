@@ -14,7 +14,10 @@ import Footer from './Footer'
 
 export default function App() {
   return (
-    <div className="bg-white text-gray-900 antialiased">
+    <div className="antialiased">
+      <div className="bg-test p-4 text-center font-bold">
+        If this is red, Tailwind is live!
+      </div>
       <NavBar />
       <HeroSection />
       <FeatureSection />
@@ -27,5 +30,6 @@ export default function App() {
       <ContactSection />
       <Footer />
     </div>
-  )
+  );
 }
+
