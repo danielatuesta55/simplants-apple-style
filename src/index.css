@@ -1,11 +1,18 @@
 /* src/index.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
+/* 1. Reset + base styles */
+@tailwind base;
+
+/* 2. Built‑in components (forms, etc) */
+@tailwind components;
+
+/* 3. Your custom “component” util */
 @layer components {
   .bg-test {
-    /* these are now guaranteed to exist thanks to safelist */
+    /* these classes are now guaranteed (via safelist) */
     @apply bg-red-500 text-white;
   }
 }
+
+/* 4. All the single‑purpose utilities */
+@tailwind utilities;

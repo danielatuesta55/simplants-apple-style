@@ -14,22 +14,24 @@ import Footer from './Footer'
 
 export default function App() {
   return (
-    <div className="antialiased">
-      <div className="bg-test p-4 text-center font-bold">
-        If this is red, Tailwind is live!
-      </div>
-      <NavBar />
-      <HeroSection />
-      <FeatureSection />
-      <PnlSection />
-      <HospitalsSection />
-      <OverviewSection />
-      <ComponentsSection />
-      <BenefitsSection />
-      <GallerySection />
-      <ContactSection />
-      <Footer />
+    <div className="bg-test p-4 text-center font-bold">
+      If this is red, Tailwind is live!
     </div>
-  );
+    );
 }
+    
+//       <NavBar />
+//       <HeroSection />
+//       <FeatureSection />
+//       <PnlSection />
+//       <HospitalsSection />
+//       <OverviewSection />
+//       <ComponentsSection />
+//       <BenefitsSection />
+//       <GallerySection />
+//       <ContactSection />
+//       <Footer />
+//     </div>
+//   );
+// }
 
