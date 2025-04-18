@@ -1,14 +1,14 @@
 // tailwind.config.cjs
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}"
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
 
-  // ← insert safelist here:
+  // ensure bg-red-500 and text-white are generated even if only used in @apply
   safelist: [
-    "bg-red-500",
-    "text-white",
+    'bg-red-500',
+    'text-white',
   ],
 
   theme: {
