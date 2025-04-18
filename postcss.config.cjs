@@ -1,11 +1,8 @@
-// postcss.config.js
+// postcss.config.cjs
 module.exports = {
-    plugins: {
-      // Use the new Tailwind PostCSS plugin
-      '@tailwindcss/postcss': {},
-  
-      // Keep autoprefixer
-      autoprefixer: {},
-    }
+  plugins: {
+    // ← this must be the core Tailwind package:
+    tailwindcss: {},   
+    autoprefixer: {},
   }
-  
+}
